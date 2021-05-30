@@ -1,5 +1,5 @@
-import { createRequire } from "https://deno.land/std@0.88.0/node/module.ts";
-import { Buffer } from "https://deno.land/std@0.88.0/node/buffer.ts";
+import { createRequire } from "https://deno.land/std@0.95.0/node/module.ts";
+import { Buffer } from "https://deno.land/std@0.95.0/node/buffer.ts";
 
 const require = createRequire(import.meta.url);
 const Parser = require("./lib/parser.js");
